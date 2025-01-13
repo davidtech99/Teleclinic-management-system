@@ -49,11 +49,11 @@ if(isset($_POST['submit'])){
 	<div class="form-group"><label>Parent:</label><input class="form-control" name="guardian" readonly="readonly" value="<?php echo "$global_permission->guardian_name"?>"" type="text" />readonly</div>
 	<div class="form-group"><label>Child ID:</label><input class="form-control" name="id" value="<?php echo "$global_permission->guardian_short_name"?><?php echo "$clinic->id";?>" readonly="readonly" type="text" />readonly</div>
 	
-	<div class="form-group"><label>Clinic Name:</label><input class="form-control" name="name" id="name" type="text" value="<?php echo "$clinic->name";?>" maxlength="30"/></div>
-	<div class="form-group"><label>Clinic Address:</label><input class="form-control" name="address" id="address" type="text" value="<?php echo "$clinic->address";?>" maxlength="50" /></div>
-	<div class="form-group"><label>Clinic City:</label><input class="form-control" name="location" id="location" type="text"  value="<?php echo "$clinic->location";?>" maxlength="30"/></div>
-	<div class="form-group"><label>Clinic Contact:</label><input class="form-control" name="contact" id="contact" type="text"  value="<?php echo "$clinic->contact";?>" maxlength="20"/></div>
-	<div class="form-group"><label>Clinic Rank:</label><select class="form-control" name='type'  name="type" id='type' size='1' tabindex='1'>
+	<div class="form-group"><label>Clinic name:</label><input class="form-control" name="name" id="name" type="text" value="<?php echo "$clinic->name";?>" maxlength="30"/></div>
+	<div class="form-group"><label>Clinic address:</label><input class="form-control" name="address" id="address" type="text" value="<?php echo "$clinic->address";?>" maxlength="50" /></div>
+	<div class="form-group"><label>Clinic city:</label><input class="form-control" name="location" id="location" type="text"  value="<?php echo "$clinic->location";?>" maxlength="30"/></div>
+	<div class="form-group"><label>Clinic contact:</label><input class="form-control" name="contact" id="contact" type="text"  value="<?php echo "$clinic->contact";?>" maxlength="20"/></div>
+	<div class="form-group"><label>Clinic rank:</label><select class="form-control" name='type'  name="type" id='type' size='1' tabindex='1'>
             <option value='<?php echo "$clinic->type";?>'><?php echo "$clinic->type";?> (Current)</option>
             <option value='Branch'>Clinic</option>
             <option value='Head Office'>Head Office</option></select></div>
