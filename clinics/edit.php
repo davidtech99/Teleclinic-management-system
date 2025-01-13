@@ -12,7 +12,7 @@
 ?>
 
 <div id="branch-edit-profile" class="container page">
-<div class="panel panel-default">
+<div class="panel panel-primary">
 <div class="panel-heading theme-branches"><span class="inlineicon edit-mini">Clinic Profile</span></div>
 <div class="panel-body">
 <ol class="breadcrumb link-branches">
